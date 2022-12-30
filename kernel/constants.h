@@ -1,0 +1,9 @@
+__constant int INF_DIST = 1000000;
+__constant float3 FAR_AWAY = (float3){0.0, 0.0, INF_DIST};
+__constant float EPSILON = 1e-03;
+__constant float BIAS = 0.0001;
+__constant float3 BLACK = {0.0, 0.0, 0.0};
+__constant float3 WHITE = {1.0, 1.0, 1.0};
+__constant float3 BACKGROUND_COLOR = {0.235294, 0.67451, 0.843137};
+//__constant float3 BACKGROUND_COLOR = {0.0, 0.0, 0.0};
+__constant int MAX_DEPTH = 20;
